@@ -3,7 +3,10 @@
   top: 100px;
   background-color: #46C6F0;
   position: relative;
+}
 
+.exofont {
+  font-family: 'Exo', sans-serif;
 }
 
 .navIcons {
@@ -20,16 +23,26 @@
 }
 
 .intro-text {
-  color: white;
+  color: black;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
 }
 
 .intro-section h1 {
   font-size: 7em;
-  text-shadow: 5px -5px black;
+  color: white;
+  /*text-shadow: 5px -5px black;*/
+  text-shadow: black 5px -5px 0, black 4px -4px 0, black 3px -3px 0, black 2px -2px 0, black 1px -1px 0;
+}
+
+.intro-section p {
+  color: black;
+  font-family: 'Exo', sans-serif;
+  font-weight: 800;
 }
 
 .social a {
-  color: white;
+  color: black;
 }
 /*
 .social .fa-phone {
