@@ -14,10 +14,10 @@ $(function() {
 $(function () {
 	$(window).scroll(function () {
 
-    if ($(this).scrollTop() <= $('#about').offset().top) {
+    if ($(this).scrollTop() <= $('#about').offset().top - 25) {
       $('.navbar').fadeOut(500);
     }
-    if ($(this).scrollTop() > $('#about').offset().top) {
+    if ($(this).scrollTop() > $('#about').offset().top - 25) {
 			$('.navbar').fadeIn(500);
 		}
 	});

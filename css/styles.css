@@ -50,15 +50,7 @@
 nav {
   display: none;
 }
-/*
-.social .fa-phone {
-  color: white;
-}
 
-.social .fa-envelope {
-  color: white;
-}
-*/
 
 #big-name {
   color: black;
@@ -115,4 +107,14 @@ nav {
   font-family: 'Exo', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #big-name {
+        font-size: 4em;
+    }
+
+    #headshot {
+      top-margin: 25px;
+    }
 }
