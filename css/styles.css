@@ -3,7 +3,6 @@
   top: 100px;
   /*background-color: #46C6F0;*/
   background-color: transparent;
-
   position: relative;
 }
 
@@ -18,6 +17,7 @@
 
 .fa-fighter-jet {
   color: black;
+  outline-color: white;
 }
 
 .fa-fighter-jet:hover {
@@ -45,6 +45,10 @@
 
 .social a {
   color: black;
+}
+
+nav {
+  display: none;
 }
 /*
 .social .fa-phone {
