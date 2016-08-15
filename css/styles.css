@@ -34,7 +34,7 @@
   font-size: 7em;
   color: white;
   /*text-shadow: 5px -5px black;*/
-  text-shadow: black 5px -5px 0, black 4px -4px 0, black 3px -3px 0, black 2px -2px 0, black 1px -1px 0;
+  text-shadow: black 5px -5px , black 4px -4px 0, black 3px -3px 0, black 2px -2px 0, black 1px -1px 0;
 }
 
 .intro-section p {
@@ -59,3 +59,60 @@ nav {
   color: white;
 }
 */
+
+#big-name {
+  color: black;
+  text-align: left;
+  font-family: 'Exo', sans-serif;
+  font-size: 6em;
+  text-shadow: 1px -1px #46C6F0, 2px -2px black;
+}
+
+.about-text {
+  text-align: left;
+  font-family: 'Exo', sans-serif;
+  color: black;
+  font-size: 1.8em;
+}
+
+/*.aboutWrapper {
+  -webkit-transform: translateZ(0)
+  position: fixed;
+}*/
+
+/*.introWrapper {
+  -webkit-transform: translateZ(0)
+  position: fixed;
+}*/
+
+/*.bio {
+    text-align: right;
+}*/
+
+#headshot {
+  zoom: 59%;
+  border-radius: 50%;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin: 0 auto;
+}
+
+#headshot:hover {
+  border-radius: 0;
+}
+
+#firstSet {
+  top: 15%;
+  position: fixed;
+  -webkit-transform: translateZ(0);
+  z-index: 2;
+}
+
+.bioWill2 {
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
