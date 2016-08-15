@@ -17,27 +17,42 @@ $(function() {
         event.preventDefault();
     });
 });
+// working scroll fx
+// (function ($) {
+//   $(document).ready(function(){
+//
+// 	// hide .navbar first
+// 	$(".navbar").hide();
+//   $(".navbar-fixed-top").addClass("top-nav-collapse");
+//
+// 	// fade in .navbar
+// 	$(function () {
+// 		$(window).scroll(function () {
+//             // set distance user needs to scroll before we fadeIn navbar
+//       if ($(".navbar").offset().top > 300) {
+// 				$('.navbar').fadeIn();
+// 			} else {
+// 				$('.navbar').fadeOut();
+// 			}
+// 		});
+//
+//
+// 	});
+//
+// });
+//   }(jQuery));
 
-(function ($) {
-  $(document).ready(function(){
+//scrolling functions.. based on sections
 
-	// hide .navbar first
-	$(".navbar").hide();
-  $(".navbar-fixed-top").addClass("top-nav-collapse");
+$(window).scroll(function(){
 
-	// fade in .navbar
-	$(function () {
-		$(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-      if ($(".navbar").offset().top > 350) {
-				$('.navbar').fadeIn();
-			} else {
-				$('.navbar').fadeOut();
-			}
-		});
+  if ($(this).scrollTop() <= $('#intro').offset().top - 25) {
+      $("nav").fadeOut(500);
+  }
 
-
-	});
+// intro section
+ if ($(this).scrollTop() >= $('#intro').offset().top - 25) {
+     $("nav").fadeIn(500);
+ }
 
 });
-  }(jQuery));

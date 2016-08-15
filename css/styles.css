@@ -1,7 +1,9 @@
 #scrollButton {
   border-style: hidden;
   top: 100px;
-  background-color: #46C6F0;
+  /*background-color: #46C6F0;*/
+  background-color: transparent;
+
   position: relative;
 }
 

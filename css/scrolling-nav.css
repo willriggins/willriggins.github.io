@@ -35,33 +35,41 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #46C6F0;
+    /*background: #46C6F0;*/
+    background: linear-gradient(to bottom, #46C6F0, white); /* Standard syntax */
+
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    /*background: #fff;*/
+    background: linear-gradient(to bottom, white, #46C6F0); /* Standard syntax */
+
 }
 
 .portfolio-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #46C6F0;
+    /*background: #46C6F0;*/
+    background: linear-gradient(to bottom, #46C6F0, white); /* Standard syntax */
+
 }
 
 .resume-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    /*background: #fff;*/
+    background: linear-gradient(to bottom, white, #46C6F0); /* Standard syntax */
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #46C6F0;
+    /*background: #46C6F0;*/
+    background: linear-gradient(to bottom, #46C6F0, white); /* Standard syntax */
 }
