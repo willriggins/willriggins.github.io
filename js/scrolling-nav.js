@@ -22,3 +22,12 @@ $(function () {
 		}
 	});
 });
+
+// //testing some bounce animations
+// import jqueryUi for this to work.
+
+// $(function() {
+//   $('#bouncing').mouseenter(function() {
+//     $(this).effect('bounce',500);
+//   });
+// });
