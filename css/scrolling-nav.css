@@ -59,14 +59,14 @@ of those sections to manage the look and feel of the site. */
   min-height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #46C6F0;
+    background: #fff;
     /*background: linear-gradient(to bottom, #46C6F0, white);*/
 
 }
 
 .resume-section {
-  height: auto;
-  min-height: 100%;
+    height: auto;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;

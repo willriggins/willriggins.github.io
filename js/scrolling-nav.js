@@ -20,6 +20,7 @@ $(function () {
     if ($(this).scrollTop() > $('#about').offset().top - 25) {
 			$('.navbar').fadeIn(500);
 		}
+    
 	});
 });
 

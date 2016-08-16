@@ -29,6 +29,9 @@
     <!-- google font -->
     <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
 
+    <!-- lightbox css -->
+    <link href="lightbox/lightbox.css" rel="stylesheet">
+
 
 </head>
 
@@ -116,32 +119,6 @@
       </div>
     </section>
 
-    <!-- old messy About Section -->
-    <!-- <section id="about" class="about-section">
-      <div class="aboutWrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <div id="fixd">
-                  <div id="firstSet">
-                    <h1 id="big-name">WILL RIGGINS</h1>
-                    <h2 class="about-text">Back End Developer</h2>
-                  </div>
-
-                  <div class="row bio">
-                    <div class="col-xs-6 pull-right">
-                    <img id="headshot" src="assets/headshot.jpeg"/>
-                    <p class="bioWill2">I'm Will!</p>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section> -->
-
-
 <!-- About Section-->
 
     <section id="about" class="about-section">
@@ -166,9 +143,44 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Portfolio Section</h1>
+          <div class="row>">
+            <div class="col-lg-12">
+              <h1 id="portfolioHeader">PORTFOLIO</h1>
+            </div>
+          </div>
+            <div class="row top-buffer">
+                <div class="col-lg-4">
+                <a href="assets/homepage.png" data-lightbox="the-yada" data-title="THE YADA HOME PAGE"><img class="img-responsive projects" src="assets/homepage.png" /></a>
+                <h3 class="projectName">The Yada</h3>
+                <h4 class="exofont"><a href="https://github.com/The-Yada/TheYada">Check out the code</a> |
+                                    <a href="http://www.theyada.us">View it live (soon)</a></h4>
+                <p class="exofont">The Yada is a Chrome Extension which allows users to create and read existing
+                                    summaries of online articles without leaving the article page. Users can also
+                                    view The Yada’s home page to see the current trending articles which have been
+                                    summarized and rated within the extension. It took three weeks to build, and was
+                                    my final group project for The Iron Yard.</p>
+                </div>
+
+                <div class="col-lg-4">
+                <a href="assets/updawwg.png" data-lightbox="updawwg" data-title="UPDAWWG HOME PAGE"><img class="img-responsive projects" src="assets/updawwg.png" /></a>
+                <h3 class="projectName">Updawwg</h3>
+                <h4 class="exofont"><a href="https://github.com/Updawwg/Updawwg">Check out the code</a></h4>
+
+                <p class="exofont">Updawwg is a single-page application built with the Spring MVC Framework for
+                                    Java on the back end. Users are able to post images, GIFs, and videos of their
+                                    dog and then have other users vote for their dog. This was a weekend group
+                                    project for The Iron Yard.</p>
+                </div>
+
+                <div class="col-lg-4">
+                <a href="assets/jobtracker.png" data-lightbox="jobtracker" data-title="JobTracker CRUD App"><img class="img-responsive projects" src="assets/jobtracker.png" /></a>
+                <h3 class="projectName">JobTracker</h3>
+                <h4 class="exofont"><a href="https://github.com/willriggins/JobTracker">Check out the code</a></h4>
+
+                <p class="exofont">JobTracker is a CRUD application built with the Spring MVC Framework for
+                                    Java on the back end. It uses mustache templating and jQuery to create some
+                                    animations on the front end. This was a personal weekend assignment for The
+                                    Iron Yard.</p>
                 </div>
             </div>
         </div>
@@ -216,6 +228,9 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <!-- lightbox js -->
+    <script src="lightbox/lightbox.js"></script>
 
 </body>
 
