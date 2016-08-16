@@ -1,7 +1,6 @@
 #scrollButton {
   border-style: hidden;
   top: 100px;
-  /*background-color: #46C6F0;*/
   background-color: transparent;
   position: relative;
 }
@@ -33,7 +32,6 @@
 .intro-section h1 {
   font-size: 7em;
   color: white;
-  /*text-shadow: 5px -5px black;*/
   text-shadow: black 5px -5px , black 4px -4px 0, black 3px -3px 0, black 2px -2px 0, black 1px -1px 0;
 }
 
@@ -66,20 +64,6 @@ nav {
   color: black;
   font-size: 1.8em;
 }
-
-/*.aboutWrapper {
-  -webkit-transform: translateZ(0)
-  position: fixed;
-}*/
-
-/*.introWrapper {
-  -webkit-transform: translateZ(0)
-  position: fixed;
-}*/
-
-/*.bio {
-    text-align: right;
-}*/
 
 #headshot {
   zoom: 59%;
@@ -117,4 +101,8 @@ nav {
     #headshot {
       top-margin: 25px;
     }
+}
+
+.textRight {
+  text-align: right;
 }
