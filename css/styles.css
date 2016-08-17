@@ -152,8 +152,25 @@ nav {
   text-shadow: 1px -1px #46C6F0, 2px -2px black;
   font-family: 'Exo', sans-serif;
   background-color: #46C6F0;
+  display: none;
+}
+
+#resumeHeader {
+  font-size: 3em;
+  text-shadow: 1px -1px #46C6F0, 2px -2px black;
+  font-family: 'Exo', sans-serif;
+  background-color: #46C6F0;
+  display: none;
 }
 
 .top-buffer {
   margin-top: 100px;
+}
+
+.borderless {
+  border: 0 none;
+}
+
+.heavyText {
+  font-weight: 700;
 }

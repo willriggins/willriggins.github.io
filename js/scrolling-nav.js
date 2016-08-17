@@ -20,15 +20,22 @@ $(function () {
     if ($(this).scrollTop() > $('#about').offset().top - 25) {
 			$('.navbar').fadeIn(500);
 		}
-    
+
+    if ($(this).scrollTop() > $('#portfolio').offset().top) {
+      $('#portfolioHeader').slideDown();
+    }
+
+    if ($(this).scrollTop() <= $('#portfolio').offset().top) {
+      $('#portfolioHeader').slideUp();
+    }
+
+    if ($(this).scrollTop() > $('#resume').offset().top) {
+      $('#resumeHeader').slideDown();
+    }
+
+    if ($(this).scrollTop() <= $('#resume').offset().top) {
+      $('#resumeHeader').slideUp();
+    }
+
 	});
 });
-
-// //testing some bounce animations
-// import jqueryUi for this to work.
-
-// $(function() {
-//   $('#bouncing').mouseenter(function() {
-//     $(this).effect('bounce',500);
-//   });
-// });
