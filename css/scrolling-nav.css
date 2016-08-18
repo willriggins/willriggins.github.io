@@ -43,8 +43,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-  height: auto;
-  min-height: 100%;
+    height: auto;
+    min-height: 100%;
     width: 100%;
     padding-top: 150px;
     text-align: center;
@@ -55,8 +55,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .portfolio-section {
-  height: auto;
-  min-height: 100%;
+    height: auto;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
@@ -74,8 +74,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-  height: auto;
-  min-height: 100%;
+    height: auto;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #46C6F0;
